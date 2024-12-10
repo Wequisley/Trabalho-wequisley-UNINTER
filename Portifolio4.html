@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <style>
+        /* Resetando margens e preenchimento padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo geral do corpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Estilos do cabeçalho e menu de navegação */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        /* Estilo para o conteúdo principal */
+        main {
+            background-color: white;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .p1 {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        /* Estilos para o rodapé */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        /* Responsividade para dispositivos móveis */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .p1 {
+                font-size: 1rem;
+            }
+
+            footer {
+                padding: 10px;
+            }
+
+            main {
+                padding: 15px;
+            }
+        }
+
+        /* Estilo para dispositivos maiores (telas acima de 1024px) */
+        @media (min-width: 1024px) {
+            h1 {
+                font-size: 3rem;
+            }
+
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            .p1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <!-- Menu de navegação -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobreM1.html">Sobre Mim</a></li>
+                <li><a href="forMacao3.html">Formação</a></li>
+                <li><a href="Portifolio4.html">Portifólio</a></li>
+                <li><a href="conTato5.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Título da página -->
+        <h1>Meu Portifólio</h1>
+
+        <!-- Seções do conteúdo -->
+        <section>
+            <h2>Imagens de um site que eu fiz não hospedado:</h2>
+            <p class="p1">Esse site se trata de um blog que eu criei chamado "Top5", nele eu coloquei algumas informações sobre atletas do mundo fitness.</p><br>
+
+            <!-- Exibição das imagens do projeto -->
+            <img src="IMG/por1.png" alt="Imagem de um site">
+            <img src="IMG/port2.png" alt="Imagem de um site">
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Wequisley Batista - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

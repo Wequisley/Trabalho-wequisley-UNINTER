@@ -1,0 +1,105 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Cabeçalho e navegação */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.imagem-perfil {
+    width: 100%;
+    max-width: 600px; /* Ajusta a largura da imagem para não ultrapassar 600px */
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para dispositivos móveis (máxima largura de 768px) */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Coloca os links da navegação em coluna */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Ajusta a margem entre os itens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Reduz o tamanho da fonte no celular */
+    }
+
+    p {
+        font-size: 1rem; /* Ajusta o tamanho do parágrafo */
+    }
+
+    .imagem-perfil {
+        max-width: 90%; /* Reduz a largura da imagem no celular */
+    }
+}
+
+/* Estilo para desktops maiores (mínima largura de 1024px) */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 3rem; /* Aumenta o tamanho da fonte no desktop */
+    }
+
+    p {
+        font-size: 1.5rem; /* Aumenta o tamanho do texto */
+    }
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wequisley Batista</title>
+    <style>
+        /* Resetando margens e preenchimento padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo básico do corpo da página */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Estilos do cabeçalho e menu */
+        header {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 5px 10px;
+            display: inline-block;
+        }
+
+        nav ul li a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+
+        /* Estilos principais da página */
+        main {
+            background-color: white;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .imagem-perfil {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            border: 5px solid #333;
+        }
+
+        /* Estilos para o rodapé */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        /* Responsividade para dispositivos móveis */
+        @media (max-width: 768px) {
+            nav ul {
+                padding: 0;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            footer {
+                padding: 10px;
+            }
+
+            main {
+                padding: 15px;
+            }
+
+            .imagem-perfil {
+                width: 80%;
+                height: auto;
+                border-radius: 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- Menu de navegação -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobreM1.html">Sobre Mim</a></li>
+                <li><a href="forMacao3.html">Formação</a></li>
+                <li><a href="Portifolio4.html">Portifólio</a></li>
+                <li><a href="conTato5.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Saudação personalizada (JavaScript) -->
+        <h2 id="saudacao"></h2>
+        <script src="JS/script.js"></script>
+
+        <!-- Mensagem de boas-vindas -->
+        <h1>Bem-vindo ao Meu Portfólio!</h1>
+
+        <!-- Descrição -->
+        <p>Descubra mais sobre mim, minha formação e meus trabalhos.</p>
+
+        <!-- Foto -->
+        <img src="IMG/Wequisley Batista.jpeg" alt="Imagem do Aluno Wequisley" class="imagem-perfil">
+    </main>
+
+    <footer>
+        <p>© 2024 Wequisley Batista - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
